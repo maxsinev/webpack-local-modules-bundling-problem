@@ -1,0 +1,22 @@
+{
+  "name": "main-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "my-lib1": "file:../common/my-lib1",
+    "my-lib2": "file:../common/my-lib2"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "webpack": "^3.8.1"
+  }
+}
